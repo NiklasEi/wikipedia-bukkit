@@ -1,0 +1,16 @@
+name: Wikipedia
+author: Nikl
+main: me.nikl.wikipedia.Wikipedia
+version: 1.0.0
+website: nikl.me
+
+commands:
+  wikipedia:
+    description: wikipedia command
+    usage: /wikipedia
+    aliases: [wiki]
+
+permissions:
+  wikipedia.use:
+    description: Allows usage of the wikipedia command
+    default: true

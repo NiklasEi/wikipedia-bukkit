@@ -1,0 +1,10 @@
+prefix: "&r[&6Wikipedia&r]"
+name: "&6Wikipedia&r"
+
+noPermission: " &4No permission!"
+noQueryGiven: " &4Please provide a query. E.g.: /wiki Angela Merkel"
+noArticleFound: " &4No article found for query: &o%query%"
+blockedWorld: " &4Not in this world!"
+response:
+- " &1&l%title% &0&l| &r&9%description%"
+- " %extract%"

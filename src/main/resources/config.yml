@@ -1,0 +1,31 @@
+# ----------------------------------------------------------------------------------#
+#                                                                                   #
+#                               Wikipedia for Bukkit                                #
+#                                                                                   #
+# ----------------------------------------------------------------------------------#
+# Plugin made by Nikl
+#   if you have any problems/suggestions
+#   please open an issue on GitHub (https://github.com/NiklasEi/wikipedia-bukkit)
+#   or find support here: http://support.nikl.me
+
+# To change the command, please open the .jar file and edit the file 'plugin.yml'
+
+
+# define the language file you want to use (find the default files in the folder 'language')
+#   to use the default messages just write 'default' (this option uses a file from inside the jar!)
+#   you cannot customise messages when using 'default', but your messages will always be up to date
+# If you want custom messages please write your own file or use one of the already written 'lang_xx.yml' files
+languageFile: 'default'
+
+# Wikipedia language
+#   Make sure, that 'https://{your language}.wikipedia.org/api/rest_v1' exists, otherwise this plugin will not function correctly
+wikipediaLanguage: "en"
+
+settings:
+  # In these worlds the commands will not work.
+  blockedWorlds:
+  #- "world_nether"
+  #- "world_end"
+
+# See 'https://bstats.org/plugin/bukkit/Wikipedia'
+bStats: true
