@@ -69,6 +69,7 @@ public class WikipediaCommand implements CommandExecutor {
     }
 
     private void handleJsonResponse(CommandSender sender, String query, JSONObject response) {
+        if (sender == null) return;
         Object descriptionObj = response.get("description");
         Object displayTitleObj = response.get("title");
         Object extractObj = response.get("extract");
@@ -87,6 +88,7 @@ public class WikipediaCommand implements CommandExecutor {
     }
 
     private void handleError(CommandSender sender, String query) {
+        if (sender == null) return;
         Messenger.sendMessage(sender, MessageKey.NO_ARTICLE_FOUND, Collections.singletonMap("%query%", query));
     }
 }
