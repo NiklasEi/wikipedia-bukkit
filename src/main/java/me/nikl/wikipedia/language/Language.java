@@ -1,6 +1,6 @@
 package me.nikl.wikipedia.language;
 
-import me.nikl.wikipedia.Utility.FileUtility;
+import me.nikl.wikipedia.utility.FileUtility;
 import org.bukkit.ChatColor;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.configuration.file.YamlConfiguration;

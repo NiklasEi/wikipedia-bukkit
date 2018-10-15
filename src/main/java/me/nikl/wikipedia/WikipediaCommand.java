@@ -1,6 +1,6 @@
 package me.nikl.wikipedia;
 
-import me.nikl.wikipedia.Utility.WikipediaProvider;
+import me.nikl.wikipedia.utility.WikipediaProvider;
 import me.nikl.wikipedia.language.MessageKey;
 import me.nikl.wikipedia.language.Messenger;
 import org.bukkit.command.Command;

@@ -1,4 +1,4 @@
-package me.nikl.wikipedia.Utility;
+package me.nikl.wikipedia.utility;
 
 import me.nikl.wikipedia.WikipediaRequest;
 import org.json.simple.JSONObject;
